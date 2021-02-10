@@ -7012,10 +7012,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markerjs2@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/markerjs2/-/markerjs2-2.3.2.tgz#9a8658f4543f0675b21b168d90d818deba4170d6"
-  integrity sha512-sKa4QcAvQ5XqeJULGk4qV8t0Ben+UTEskQLXNemsUEqHIGEQlLZUA3L+297cO4KmtqE84nt5H3usDeCbYY9aCQ==
+markerjs2@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/markerjs2/-/markerjs2-2.3.3.tgz#eb7810600ead67dafc3b7fb203e6a138119d6456"
+  integrity sha512-WZmwFW2TllGQed2UM59QpVZDH8TABSdy/PyKwLEFyXyQnvugVhxRRFTD1k5eauF6tGCC9F5cyFnYnYqngy2qFQ==
 
 md5.js@^1.3.4:
   version "1.3.5"

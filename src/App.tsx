@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import * as markerjs2 from 'markerjs2';
+import {TriangleMarker } from './TriangleMarker';
 
 class App extends Component {
   imgRef = React.createRef<HTMLImageElement>();
@@ -9,6 +10,7 @@ class App extends Component {
     if (this.imgRef.current !== null) {
       // create a marker.js MarkerArea
       const markerArea = new markerjs2.MarkerArea(this.imgRef.current);
+      markerArea.availableMarkerTypes = [TriangleMarker, ...markerArea.BASIC_MARKER_TYPES];
       // attach an event handler to assign annotated image back to our image element
       markerArea.addRenderEventListener(dataUrl => {
         if (this.imgRef.current) {
